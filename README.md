@@ -14,4 +14,7 @@ sudo apt install fastfetch
 (fastfetch config is uploaded here, and located at ~/.config/fastfetch/fastfetch.conf on your machine)
 
 - Btop install
-```sudo apt install btop```
+
+```
+sudo apt install btop
+```
