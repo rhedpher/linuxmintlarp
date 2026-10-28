@@ -1,10 +1,7 @@
 # Linux Mint Larp
 - Jetbrains nerd mono font install
 ```
-sudo apt install -y curl unzip
-mkdir -p ~/.local/share/fonts/JetBrainsMono
-curl -fLo /tmp/JetBrainsMono.zip \  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
-unzip -o /tmp/JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMonofc-cache -f
+sudo apt install -y wget unzip fontconfig && mkdir -p ~/.local/share/fonts/JetBrainsMonoNF && cd /tmp && wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip && unzip -o JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMonoNF && fc-cache -fv
 ```
 
 - Fastfetch Install
