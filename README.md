@@ -2,7 +2,9 @@
 - Jetbrains nerd mono font install
 ```
 sudo apt install -y curl unzip
-mkdir -p ~/.local/share/fonts/JetBrainsMonocurl -fLo /tmp/JetBrainsMono.zip \  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zipunzip -o /tmp/JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMonofc-cache -f
+mkdir -p ~/.local/share/fonts/JetBrainsMono
+curl -fLo /tmp/JetBrainsMono.zip \  https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip
+unzip -o /tmp/JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMonofc-cache -f
 ```
 
 - Fastfetch Install
